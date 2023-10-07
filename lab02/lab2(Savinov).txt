@@ -1,0 +1,139 @@
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023 (main)
+$ git branch lab2
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023 (main)
+$ git branch
+  lab2
+* main
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023 (main)
+$ git checkout lab2
+Switched to branch 'lab2'
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023 (lab2)
+$ mkdir lab02
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023 (lab2)
+$ cd lab02
+\
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ mkdir dir1 dir2
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ touch nik575sav
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls
+dir1/  dir2/  nik575sav
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ mv nik575sav lab226
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls
+dir1/  dir2/  lab226
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cat lab226
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cat > lab226
+ara-ara-ara-ara
+ararararrararararararararara
+privet mir?
+
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cat lab226
+ara-ara-ara-ara
+ararararrararararararararara
+privet mir?
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cp lab226 lab227
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls
+dir1/  dir2/  lab226  lab227
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cat lab227
+ara-ara-ara-ara
+ararararrararararararararara
+privet mir?
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cat lab226 >> lab227
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cat lab227
+ara-ara-ara-ara
+ararararrararararararararara
+privet mir?
+ara-ara-ara-ara
+ararararrararararararararara
+privet mir?
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ who
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ whoami
+1157671
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ pwd
+/c/Users/1157671/labs-2023/lab02
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ mv lab227 dir1
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls
+dir1/  dir2/  lab226
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ cd dir1
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02/dir1 (lab2)
+$ ls
+lab227
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02/dir1 (lab2)
+$ cd ..
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ rm -r dir1
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls
+dir2/  lab226
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ grep "ara" ~/lab-2023/lab02/lab226
+grep: /c/Users/1157671/lab-2023/lab02/lab226: No such file or directory
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ grep "ara" ~/labs-2023/lab02/lab226
+ara-ara-ara-ara
+ararararrararararararararara
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+     1130    1129    1130      16896  pty0      197609 14:24:43 /usr/bin/bash
+     1129       1    1129      16736  ?         197609 14:24:41 /usr/bin/mintty
+     1385    1130    1385      14964  pty0      197609 18:18:52 /usr/bin/ps
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls | grep -E "^lab[1-9]+"
+lab226
+
+1157671@LAPTOP-JQ9PJ2IN MINGW64 ~/labs-2023/lab02 (lab2)
+$ ls | sort -r
+lab226
+dir2/
